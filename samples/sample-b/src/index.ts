@@ -1,3 +1,3 @@
-import { printWithPrefix } from '@package-based/lib-a';
+import { printSomething } from '@package-based/lib-b';
 
-printWithPrefix('from sample-a', 'Hello');
+printSomething();
