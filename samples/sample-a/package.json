@@ -1,0 +1,20 @@
+{
+  "name": "sample-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsnd --transpile-only --respawn --no-notify --ignore-watch node_modules ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@package-based/core-lib": "file:../../dist/packages/core-lib",
+    "@package-based/lib-a": "file:../../dist/packages/lib-a"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
+  }
+}
