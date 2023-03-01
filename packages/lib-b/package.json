@@ -1,0 +1,8 @@
+{
+  "name": "@package-based/lib-b",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "dependencies": {
+    "@package-based/lib-a": "file:../lib-a"
+  }
+}
