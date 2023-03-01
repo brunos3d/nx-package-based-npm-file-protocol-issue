@@ -9,8 +9,6 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@package-based/core-lib": "file:../../dist/packages/core-lib",
-    "@package-based/lib-a": "file:../../dist/packages/lib-a",
     "@package-based/lib-b": "file:../../dist/packages/lib-b"
   },
   "devDependencies": {
